@@ -1,3 +1,64 @@
 body {
     background-color:#FFE5CC;
 }
+
+.header {
+    background-image: url('images/backgroundcoffee.jpg');
+    background-size:cover;
+    background-position:center;
+    padding:60px 20px;
+    text-align:center;
+    color:white;
+}
+.navbar {
+    text-align:center;
+    padding:10px;
+}
+
+.navbar nav{
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:2px solid white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.our_story{
+    position:relative;
+    padding:40px 20px;
+    text-align:center;
+    background-image:url('images/coffee.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+
+.text-box {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    position:relative;
+}
+.text-box h2 {
+    margin-top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-box p {
+    margin-bottom:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.text-box button {
+    background-color: #FFE5CC ;
+    color:#fff;
+    border-radius:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
