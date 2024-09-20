@@ -3,17 +3,23 @@ body {
 }
 
 .header {
-    background-image:url('images/background.jpg');
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    padding:150px;
-    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
     color:white;
+    position: relative;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    
 }
 .navbar {
-    text-align:center;
-    padding:60px;
+    display: flex;
+    justify-content: center;
+    flex:1;
 }
 
 .navbar a {
@@ -22,7 +28,8 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
     border-radius: 5px;  
-    padding:10px 20px;
+    padding:10px 30px;
+    min-width: 150px;
     border:2px solid black;
     background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease; 
@@ -31,9 +38,18 @@ body {
 
 .navbar a:hover {
     background-color:#aa8b62;
-    }
+}
 
+.images-container{
+    display:flex;
+    justify-content:space-between;
+}
 
+.image{
+    width:33%;
+    height:auto;
+    border-radius:10px;
+}
 
 .our_story{
     position:relative;
@@ -42,15 +58,24 @@ body {
     background-image:url('images/coffee.jpg');
     background-size:cover;
     background-position:center;
+    border-radius:10px;
 }
 
 
 .text-box {
-    background-color: #fff;
+    background-color: #FFE5CC;
     border: 2px solid #ddd;
     padding: 40px;
     border-radius: 10px;
-    position:left;
+    max-width: 400px;
+    min-height: 300px;
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .text-box h2 {
     margin-top: 0;
@@ -65,10 +90,15 @@ body {
 
 .text-box button {
     background-color: #FFE5CC ;
-    color:#fff;
+    color:black;
     border-radius:5px;
+    padding:10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
+}
+
+.text-box button:hover{
+    background-color:#aa8b62;
 }
 
 .flip-card {
